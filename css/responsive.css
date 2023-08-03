@@ -1,0 +1,38 @@
+@media(max-width:991px) {
+	.header-section{
+	position: relative;
+}
+	.header-section .menu {
+		background: #2C3A47;
+		display: none;
+		position: absolute;
+		top: 60px;
+		right: 0;
+		padding: 50px 30px;
+		border-radius: 5px;
+		z-index: 20;
+	}
+.header-section .menu ul{
+	display: block;
+}
+	.header-section .menu ul li{
+	margin: 5px 0;
+}
+	.nav-bar {
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	.sign-in{
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 40px;
+	}
+	..important-person .row .col-lg-12{
+		display: block;
+		text-align: center;
+	}
+	.important-person-dis{
+		text-align: center;
+	}
+}
